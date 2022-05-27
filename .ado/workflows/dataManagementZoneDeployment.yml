@@ -31,7 +31,7 @@ stages:
       - job: Validation
         displayName: "Validation of IaC templates"
         continueOnError: false
-        pool:
+        pool: default
           vmImage: "ubuntu-latest"
 
         steps:
